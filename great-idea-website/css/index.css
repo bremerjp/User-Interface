@@ -3,6 +3,8 @@
    License: none (public domain)
 */
 
+@import url('https://fonts.googleapis.com/css?family=Staatliches&display=swap');
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -49,7 +51,7 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 
 html, body {
@@ -64,3 +66,104 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Your code starts here! */
+
+  
+  .container {
+	width: 960px;
+	margin: 0 auto;
+  }
+  
+  nav {
+	height: 50px;
+	margin-top: 5%;
+  }
+  
+  nav a {
+	display: inline;
+	margin: 3%;
+	text-decoration: none;
+	color: grey;
+  }
+  
+  nav a:hover {
+	color: black;
+  }
+  
+  header {
+	border-bottom: 1px solid black;
+	padding-bottom: 5%;
+	margin: 20px 0;
+  }
+  
+  .center {
+	margin: 0 auto;
+	display: inline;
+  }
+  
+  .title {
+	display: inline-block;
+	width: 50%;
+  }
+  
+  .title h1 {
+	font-size: 3.5em;
+	max-width: 35%;
+	text-align: center;
+	margin: 0 3% 5% 10%;
+  }
+  
+  .button {
+	max-width: 150px;
+	padding: 5px 35px;
+	background-color: white;
+	text-align: center;
+	border: 1px solid black;
+	margin: 10%
+  }
+  
+  .button:hover {
+	cursor: pointer;
+	background-color: black;
+	color: white;
+  }
+  
+  .circle {
+	display: inline-block;
+	padding-left: 50px;
+  }
+  
+  .top {
+	margin: 20px 0;
+  }
+  
+  .box2 {
+	display: inline-block;
+	padding-right: 10px;
+	width: 49%;
+  }
+  
+  .columns {
+	margin: 50px 0;
+  }
+  
+  .box3 {
+	display: inline-block;
+	padding-right: 10px;
+	width: 33%;
+	margin: 0 auto;
+  }
+  
+  .address {
+	margin-top: 20px;
+	font-family: 'Staatliches', cursive;
+  }
+  
+  .contact {
+	margin-top: 15px;
+  }
+  
+  footer {
+	text-align: center;
+	margin: 35px;
+	font-family: 'Staatliches', cursive;
+  }
